@@ -1,9 +1,8 @@
 name: Run Postman API Tests with htmlextra
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
+  schedule:
+    - cron: '0 17,1,9 * * *'
 
 jobs:
   postman-tests:
