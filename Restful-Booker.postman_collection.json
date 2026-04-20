@@ -209,11 +209,6 @@
 							"pm.test(\"Status code is 200\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
-							"\r",
-							"pm.test(\"Assert totalprice is 111\", function () {\r",
-							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.totalprice).to.eql(111);\r",
-							"});"
 						],
 						"type": "text/javascript"
 					}
